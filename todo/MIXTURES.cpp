@@ -2,8 +2,8 @@
 #include <iostream>
 #include <vector>
 
-int rec(int count, int i, std::vector<int> mixtures) {
-    
+unsigned long long rec(int from, int to) {
+
 }
 
 int main(int argc, char** argv) {
@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
             mixtures.push_back(mix);
         }
 
-        printf("%d", rec(0, 0, mixtures));
+        printf("%d", rec());
     }
 
 }
